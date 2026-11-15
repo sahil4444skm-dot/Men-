@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jarvis band hai"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/apiKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Gemini API key yahan paste karo"
+        android:singleLine="true" />
+
+    <Button
+        android:id="@+id/btnSaveKey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="API key Save Karo" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Jarvis Start (5 minute)" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jarvis Stop" />
+
+    <Button
+        android:id="@+id/btnAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accessibility On Karo" />
+
+</LinearLayout>
